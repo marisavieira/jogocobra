@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfe6e9;
+    font-family: 'Raleway', sans-serif;
+}
+
+#titulo{
+    margin-bottom: 25px;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.alinhamento{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 15px 0 5px 0;    
+}
+
+.informacoes{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cobra{
+    height: 80px;
+}
+
+.placar, .jogo{
+    margin-right: 25px;
+}
+
+.placar {
+    background-color: #f1f2f6;
+    border: 2px solid #99c768;
+    width: 300px;
+}
+
+#pnt, #sit, #tit{
+    margin: 0;
+}
+
+#novoJogo{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #99c768;
+}
+
+#aut{
+    margin-top: 15px;
+}
+
+.jogo {
+    background-color: #eefde4;
+    width: 504px;
+    height: 504px;
+    border: 3px solid black;
+}
+
+.corpo {
+    width: 10px;
+    height: 10px;
+    background-color: #99c768;
+    border-radius: 5px;
+    margin: 0 2px 0 2px;
+    position: absolute;
+}
+
+#cabeca {
+    width: 15px;
+    height: 15px;
+    background-image: url("imagens/cabeca.png");
+    background-size: 15px 15px;
+    position: absolute;
+}
+
+#maca {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+
+.regras {
+    margin-top: 25px;
+    background-color: #f1f2f6;
+    border: 2px solid #99c768;
+    width: 290px;
+    padding: 0 15px 0 15px;
+}
+
+#regra{
+    text-align: justify;
+}

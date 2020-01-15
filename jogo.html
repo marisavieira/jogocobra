@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Cobra</title>
+    <link rel="sortcut icon" href="imagens/cabeca.png" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+</head>
+
+<body>
+    <h1 class="alinhamento" id="titulo"> Snake Game </h1>
+    <section class="tudo">
+        <section class="informacoes">
+            <div id="cobra"></div>
+            <section class="placar">
+                <div class="pontuacao alinhamento">
+                    <h4 id="tit"> Pontuação: </h4>
+                    <p id="pnt"> 0 </p>
+                </div>
+                <hr>
+
+                <div class="situacao alinhamento">
+                    <h4 id="tit"> Situacão: </h4>
+                    <p id="sit"> Permanece Vivo </p>
+                </div>
+                <hr>
+
+                <div class="restart alinhamento">
+                    <div onclick="NovoJogo();" id="novoJogo"> NOVO JOGO </div>
+                </div>
+            </section> 
+            <p id="aut"> <strong>Produzido por</strong>: Marisa</p> 
+        </section>
+
+        <section class="jogo">
+            <div class="corpo" id="cod0"></div>
+            <div id="cabeca"> </div>
+            <img id="maca" src="imagens/maca.png">
+        </section>
+                          
+        <section class="regras">
+                <h4 class="alinhamento" id="tit"> Informações: </h4>
+                <p id="regra"> <strong>•</strong> Você controla uma longa e fina criatura que se arrasta pela tela, coletando maça.</p>
+                <p id="regra"> <strong>•</strong> Você não pode colidir com seu próprio corpo ou as paredes que cercam a área do jogo.</p>
+                <p id="regra"> <strong>•</strong> Cada vez que comer uma maça, seu corpo cresce.</p>
+                <p id="regra"> <strong>•</strong> Você controla a direção da cabeça.</p>
+                <p id="regra"> <strong>•</strong> Os movimentos podem ser para cima, para baixo, esquerda e direita.</p>
+            </div>
+        </section>        
+    </section>
+</body>
+
+</html>
